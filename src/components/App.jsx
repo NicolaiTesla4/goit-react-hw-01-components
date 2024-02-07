@@ -1,8 +1,10 @@
+import Profile from  './profile/Profile.jsx';
+import userData from './profile/user.json';
+
 export const App = () => {
   return (
     <div
-      style={{
-        height: '100vh',
+      style={{ 
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
