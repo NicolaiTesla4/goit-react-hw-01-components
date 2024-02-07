@@ -10,7 +10,14 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      React homework template
+       <Profile
+        username={userData.username}
+        tag={userData.tag}
+        location={userData.location}
+        avatar={userData.avatar}
+        stats={userData.stats}
+      />
+    
     </div>
   );
 };
