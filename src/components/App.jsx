@@ -12,7 +12,8 @@ export const App = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        flexDirection: 'column'
+        flexDirection: 'column',
+        padding: 60 ,
         /*  fontSize: 40,  
         color: '#010101'  */
       }}

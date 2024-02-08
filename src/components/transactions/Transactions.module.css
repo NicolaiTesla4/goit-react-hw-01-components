@@ -50,6 +50,5 @@
 
 .block_body td:nth-child(1) {
     text-align: center;
-    text-transform: capitalize;
-    text-align: justify; 
+    text-transform: capitalize; 
 }
