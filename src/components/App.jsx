@@ -15,9 +15,9 @@ export const App = () => {
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        padding: 60 ,
-        /*  fontSize: 40,  
-        color: '#010101'  */
+        padding: 60,
+        gap: 20,
+        fontSize: 40, 
       }}
     >
        <Profile

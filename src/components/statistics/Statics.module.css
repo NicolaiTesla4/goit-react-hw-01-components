@@ -21,6 +21,7 @@
 .stat_list {
     display: flex;
     color: #ffffff;
+    margin-left: -40px
 }
 
 .item {
