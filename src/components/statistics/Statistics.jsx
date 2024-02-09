@@ -1,4 +1,4 @@
-import css from './ Statics.module.css';
+import css from './Statics.module.css';
 import PropTypes from 'prop-types';
 
 function getRandomHexColor() {
@@ -8,7 +8,7 @@ function getRandomHexColor() {
 }
 const Statistics = ({ title, data }) => {
   return (
-    <section className={css.statistics}>
+    <section className={css.statics}>
       {title && <h2 className={css.title}>{title}</h2>}
 
       <ul className={css.stat_list}>
